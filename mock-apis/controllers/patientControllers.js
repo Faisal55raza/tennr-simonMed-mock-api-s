@@ -16,7 +16,6 @@ export const getPatients = TryCatch(async (req, res) => {
   } else {
     let setA = [];
     let setB = [];
-
     if((firstName && firstName.trim() !== "") || (lastName && lastName.trim() !== "")) {
       
       atLeastOneCriteria = true;
