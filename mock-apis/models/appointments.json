@@ -1,0 +1,2452 @@
+[
+    {
+        "id": 8300033,
+        "patientId": 2692974,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-07-15T00:00:00",
+        "appointmentTime": "3:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "34186414                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "KNEE 3 VIEW (RIGHT)                                                                                                                                                                 ",
+                "modality": "XR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "No prep is required for your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "812",
+            "name": "SimonMed Dallas North",
+            "address": {
+                "address1": "2500 Legacy Dr",
+                "address2": "",
+                "city": "Plano",
+                "state": "TX",
+                "zip": "75024"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "259037",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "259037",
+            "orderingProviderLastName": "WEITZMAN",
+            "orderingProviderFirstName": "GIL",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1164442968",
+            "orderingAddress1": "310 E 72nd St",
+            "orderingAddress2": "",
+            "orderingCity": "New York",
+            "orderingState": "NY",
+            "orderingZip": "10021",
+            "orderingPhone": "2122493720"
+        }
+    },
+    {
+        "id": 8300048,
+        "patientId": 8102392,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-07-13T00:00:00",
+        "appointmentTime": "3:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "37048838                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "BRAIN WITH AND WITHOUT CONTRAST                                                                                                                                                     ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3098787",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3098787RF",
+            "orderingProviderLastName": "SADIQ",
+            "orderingProviderFirstName": "SEHRISH",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1639600919",
+            "orderingAddress1": "201 E 65th St",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10065",
+            "orderingPhone": "(855)452-2346"
+        }
+    },
+    {
+        "id": 8300013,
+        "patientId": 1717159,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-09-04T00:00:00",
+        "appointmentTime": "4:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "31871534                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "HAND 2 VIEW (LEFT)                                                                                                                                                                  ",
+                "modality": "XR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3154620",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3154620RF",
+            "orderingProviderLastName": "WOO",
+            "orderingProviderFirstName": "PEAK",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1629038500",
+            "orderingAddress1": "300 CENTRAL PARK W APT 1H",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10024",
+            "orderingPhone": "(212)580-1004"
+        }
+    },
+    {
+        "id": 8300029,
+        "patientId": 2353031,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-01-23T00:00:00",
+        "appointmentTime": "9:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "39113685                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "SINUS WITHOUT CONTRAST                                                                                                                                                              ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "812",
+            "name": "SimonMed Dallas North",
+            "address": {
+                "address1": "2500 Legacy Dr",
+                "address2": "",
+                "city": "Plano",
+                "state": "TX",
+                "zip": "75024"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "76571",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "76571",
+            "orderingProviderLastName": "LEWIS",
+            "orderingProviderFirstName": "RONALD",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1932199643",
+            "orderingAddress1": "205 East Mann St, Suite 226",
+            "orderingAddress2": "",
+            "orderingCity": "Huntington",
+            "orderingState": "NY",
+            "orderingZip": "11743",
+            "orderingPhone": "6319232370"
+        }
+    },
+    {
+        "id": 8300035,
+        "patientId": 3918418,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-08-11T00:00:00",
+        "appointmentTime": "1:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "33731818                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN WITHOUT CONTRAST                                                                                                                                                            ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3088424",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3088424RF",
+            "orderingProviderLastName": "KAPLAN",
+            "orderingProviderFirstName": "MARC",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1568564995",
+            "orderingAddress1": "205 East 78th Street",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10075",
+            "orderingPhone": "(212)794-2144"
+        }
+    },
+    {
+        "id": 8300015,
+        "patientId": 1717159,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-02-23T00:00:00",
+        "appointmentTime": "8:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "31876828                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "113981",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "113981",
+            "orderingProviderLastName": "MIN",
+            "orderingProviderFirstName": "ALBERT",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "OD",
+            "orderingProviderNPI": "1396720256",
+            "orderingAddress1": "1st Ave at 16th St",
+            "orderingAddress2": "",
+            "orderingCity": "New York",
+            "orderingState": "NY",
+            "orderingZip": "10003",
+            "orderingPhone": "2124202000"
+        }
+    },
+    {
+        "id": 8300019,
+        "patientId": 8030103,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2025-07-17T00:00:00",
+        "appointmentTime": "10:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "34672073                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "BRAIN WITH AND WITHOUT CONTRAST                                                                                                                                                     ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "115946",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "115946",
+            "orderingProviderLastName": "SCARLETT",
+            "orderingProviderFirstName": "RIZZO",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1215573530",
+            "orderingAddress1": "160 EAST 34TH 9TH FLOOR",
+            "orderingAddress2": "",
+            "orderingCity": "NEWYORK, NY",
+            "orderingState": "NY",
+            "orderingZip": "10016",
+            "orderingPhone": "2127316110"
+        }
+    },
+    {
+        "id": 8300034,
+        "patientId": 4576257,
+        "status": "COMPLETED",
+        "appoinmentDate": "2024-11-27T00:00:00",
+        "appointmentTime": "11:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "30415846                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "SINUS WITHOUT CONTRAST                                                                                                                                                              ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3114690",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3114690RF",
+            "orderingProviderLastName": "FERNANDEZ",
+            "orderingProviderFirstName": "ARACELIS",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "M.D.",
+            "orderingProviderNPI": "1952393001",
+            "orderingAddress1": "111 E 210TH ST",
+            "orderingAddress2": "",
+            "orderingCity": "BRONX",
+            "orderingState": "NY",
+            "orderingZip": "10467",
+            "orderingPhone": "(718)882-0023"
+        }
+    },
+    {
+        "id": 8300041,
+        "patientId": 4861145,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-09-03T00:00:00",
+        "appointmentTime": "9:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "37418210                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "CAROTID DUPLEX                                                                                                                                                                      ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "110199",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "110199",
+            "orderingProviderLastName": "LEFKOWITZ",
+            "orderingProviderFirstName": "MELISSA",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "PA-C",
+            "orderingProviderNPI": "1891953287",
+            "orderingAddress1": "535 E 70th St",
+            "orderingAddress2": "",
+            "orderingCity": "New York",
+            "orderingState": "NY",
+            "orderingZip": "10021",
+            "orderingPhone": "2126061855"
+        }
+    },
+    {
+        "id": 8300045,
+        "patientId": 7650917,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-09-04T00:00:00",
+        "appointmentTime": "4:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "38468772                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "CERVICAL SPINE 2-3 VIEW                                                                                                                                                             ",
+                "modality": "XR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3153294",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3153294RF",
+            "orderingProviderLastName": "COHEN",
+            "orderingProviderFirstName": "ADI",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "M.D.",
+            "orderingProviderNPI": "1982783080",
+            "orderingAddress1": "630 W 168TH ST # 4",
+            "orderingAddress2": "VC 12TH FLOOR, SUITE 208",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10032",
+            "orderingPhone": "(212)305-7356"
+        }
+    },
+    {
+        "id": 8300010,
+        "patientId": 728502,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2025-08-24T00:00:00",
+        "appointmentTime": "1:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "32396987                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "CAROTID DUPLEX                                                                                                                                                                      ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3133725",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3133725RF",
+            "orderingProviderLastName": "MEISLER",
+            "orderingProviderFirstName": "KENNETH",
+            "orderingProviderMiddleInitial": "R",
+            "orderingProviderSuffix": "DPM",
+            "orderingProviderNPI": "1215941802",
+            "orderingAddress1": "210 E 86th St",
+            "orderingAddress2": "Suite 402",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10028",
+            "orderingPhone": "(212)628-4444"
+        }
+    },
+    {
+        "id": 8300038,
+        "patientId": 6210622,
+        "status": "ORDERED",
+        "appoinmentDate": "2024-10-02T00:00:00",
+        "appointmentTime": "11:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "30744682                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3088441",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3088441RF",
+            "orderingProviderLastName": "BAZOS",
+            "orderingProviderFirstName": "ANDREW",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1568551927",
+            "orderingAddress1": "512 7th Avenue",
+            "orderingAddress2": "14th Floor",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10018",
+            "orderingPhone": "(212)768-7979"
+        }
+    },
+    {
+        "id": 8300011,
+        "patientId": 728502,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-06-01T00:00:00",
+        "appointmentTime": "9:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "32320821                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "KNEE 3 VIEW (RIGHT)                                                                                                                                                                 ",
+                "modality": "XR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3094899",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3094899RF",
+            "orderingProviderLastName": "WEINBERG",
+            "orderingProviderFirstName": "JED",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1073615225",
+            "orderingAddress1": "200 WEST CARVER ST",
+            "orderingAddress2": "",
+            "orderingCity": "HUNTINGTON",
+            "orderingState": "NY",
+            "orderingZip": "11743",
+            "orderingPhone": "(631)421-0020"
+        }
+    },
+    {
+        "id": 8300016,
+        "patientId": 1717159,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2024-10-25T00:00:00",
+        "appointmentTime": "10:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "31161193                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN WITHOUT CONTRAST                                                                                                                                                            ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3082299",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3082299RF",
+            "orderingProviderLastName": "Raja",
+            "orderingProviderFirstName": "Andaleeb",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1417253956",
+            "orderingAddress1": "170 East 77th Street",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10075",
+            "orderingPhone": "(646)687-7600"
+        }
+    },
+    {
+        "id": 8300040,
+        "patientId": 5198175,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-07-16T00:00:00",
+        "appointmentTime": "8:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "39548001                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3104727",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3104727RF",
+            "orderingProviderLastName": "LEE",
+            "orderingProviderFirstName": "JANE",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1447891486",
+            "orderingAddress1": "350 W 58th St",
+            "orderingAddress2": "Suite 1A",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10019",
+            "orderingPhone": "(347)545-2520"
+        }
+    },
+    {
+        "id": 8300020,
+        "patientId": 7935373,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-08-01T00:00:00",
+        "appointmentTime": "3:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "31626229                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "CHEST WITHOUT CONTRAST                                                                                                                                                              ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3096552",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3096552RF",
+            "orderingProviderLastName": "RODRIGUEZ",
+            "orderingProviderFirstName": "JAMES",
+            "orderingProviderMiddleInitial": "E",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1477674521",
+            "orderingAddress1": "255 Greenwich St, 5th FL, Ste 520",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10007",
+            "orderingPhone": "(646)687-7600"
+        }
+    },
+    {
+        "id": 8300005,
+        "patientId": 3421826,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-07-06T00:00:00",
+        "appointmentTime": "2:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "36350753                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "No prep is required for your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "812",
+            "name": "SimonMed Dallas North",
+            "address": {
+                "address1": "2500 Legacy Dr",
+                "address2": "",
+                "city": "Plano",
+                "state": "TX",
+                "zip": "75024"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "260297",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "260297",
+            "orderingProviderLastName": "WARMAN",
+            "orderingProviderFirstName": "JONATHAN",
+            "orderingProviderMiddleInitial": "I",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1083617534",
+            "orderingAddress1": "132 E 76th St Ste 2G",
+            "orderingAddress2": "",
+            "orderingCity": "New York",
+            "orderingState": "NY",
+            "orderingZip": "10021",
+            "orderingPhone": "2129882900"
+        }
+    },
+    {
+        "id": 8300023,
+        "patientId": 6458113,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-05-26T00:00:00",
+        "appointmentTime": "10:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "38075854                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "CAROTID DUPLEX                                                                                                                                                                      ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3115589",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3115589RF",
+            "orderingProviderLastName": "Bergeron",
+            "orderingProviderFirstName": "Megan",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1619576717",
+            "orderingAddress1": "222 E 41st St 7FL",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10017",
+            "orderingPhone": "(646)825-6300"
+        }
+    },
+    {
+        "id": 8300007,
+        "patientId": 3421826,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-02-09T00:00:00",
+        "appointmentTime": "9:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "36210606                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "KNEE 3 VIEW (RIGHT)                                                                                                                                                                 ",
+                "modality": "XR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "812",
+            "name": "SimonMed Dallas North",
+            "address": {
+                "address1": "2500 Legacy Dr",
+                "address2": "",
+                "city": "Plano",
+                "state": "TX",
+                "zip": "75024"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3119022",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3119022RF",
+            "orderingProviderLastName": "BLOOM",
+            "orderingProviderFirstName": "JONATHAN",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "M.D.",
+            "orderingProviderNPI": "1972904423",
+            "orderingAddress1": "400 WHITE SPRUCE BLVD STE B",
+            "orderingAddress2": "",
+            "orderingCity": "ROCHESTER",
+            "orderingState": "NY",
+            "orderingZip": "14623",
+            "orderingPhone": "(585)275-2838"
+        }
+    },
+    {
+        "id": 8300026,
+        "patientId": 7133426,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-07-07T00:00:00",
+        "appointmentTime": "9:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "39557567                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3147043",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3147043RF",
+            "orderingProviderLastName": "ALLURI",
+            "orderingProviderFirstName": "RAVI",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "M.D.",
+            "orderingProviderNPI": "1083930051",
+            "orderingAddress1": "252 FARBER HALL",
+            "orderingAddress2": "3435 MAIN STREET",
+            "orderingCity": "BUFFALO",
+            "orderingState": "NY",
+            "orderingZip": "14214",
+            "orderingPhone": "(716)829-6102"
+        }
+    },
+    {
+        "id": 8300032,
+        "patientId": 2238181,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-04-11T00:00:00",
+        "appointmentTime": "3:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "32500715                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "KNEE WITHOUT CONTRAST (LEFT)                                                                                                                                                        ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "No prep is required for your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "72562",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "72562",
+            "orderingProviderLastName": "PERIS",
+            "orderingProviderFirstName": "MARSHAL",
+            "orderingProviderMiddleInitial": "D",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1619914819",
+            "orderingAddress1": "90 S Bedford Rd",
+            "orderingAddress2": "",
+            "orderingCity": "Mount Kisco",
+            "orderingState": "NY",
+            "orderingZip": "10549",
+            "orderingPhone": "8454323957"
+        }
+    },
+    {
+        "id": 8300049,
+        "patientId": 7412114,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-08-27T00:00:00",
+        "appointmentTime": "1:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "39029842                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "CAROTID DUPLEX                                                                                                                                                                      ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "812",
+            "name": "SimonMed Dallas North",
+            "address": {
+                "address1": "2500 Legacy Dr",
+                "address2": "",
+                "city": "Plano",
+                "state": "TX",
+                "zip": "75024"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "12778",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "12778",
+            "orderingProviderLastName": "FEDEROWICZ",
+            "orderingProviderFirstName": "DANIEL",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1902820210",
+            "orderingAddress1": "240 Riverside",
+            "orderingAddress2": "",
+            "orderingCity": "Johnson City",
+            "orderingState": "NY",
+            "orderingZip": "13790",
+            "orderingPhone": "6077989356"
+        }
+    },
+    {
+        "id": 8300037,
+        "patientId": 7421474,
+        "status": "CANCELLED",
+        "appoinmentDate": "2024-12-31T00:00:00",
+        "appointmentTime": "2:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "30641849                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "No prep is required for your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3160314",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3160314RF",
+            "orderingProviderLastName": "Nachtigall",
+            "orderingProviderFirstName": "Margaret",
+            "orderingProviderMiddleInitial": "J",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1023156627",
+            "orderingAddress1": "30 E 60th St",
+            "orderingAddress2": "Room 1901",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10022",
+            "orderingPhone": "(212)683-0519"
+        }
+    },
+    {
+        "id": 8300003,
+        "patientId": 307528,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-09-02T00:00:00",
+        "appointmentTime": "1:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "30109031                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "PELVIC TRANSABDOMINAL                                                                                                                                                               ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3137562",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3137562RF",
+            "orderingProviderLastName": "KORY",
+            "orderingProviderFirstName": "PIERRE",
+            "orderingProviderMiddleInitial": "D",
+            "orderingProviderSuffix": "M.D.",
+            "orderingProviderNPI": "1073709796",
+            "orderingAddress1": "213 Tioga St",
+            "orderingAddress2": "Suite 6834",
+            "orderingCity": "ITHACA",
+            "orderingState": "NY",
+            "orderingZip": "14851",
+            "orderingPhone": "(608)400-0141"
+        }
+    },
+    {
+        "id": 8300039,
+        "patientId": 5060271,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-08-14T00:00:00",
+        "appointmentTime": "3:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "38508103                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "LUMBAR SPINE WITHOUT CONTRAST                                                                                                                                                       ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "812",
+            "name": "SimonMed Dallas North",
+            "address": {
+                "address1": "2500 Legacy Dr",
+                "address2": "",
+                "city": "Plano",
+                "state": "TX",
+                "zip": "75024"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "109582",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "109582",
+            "orderingProviderLastName": "DAGAN",
+            "orderingProviderFirstName": "TAL",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "- duplicate - 109582",
+            "orderingProviderNPI": "1013997980",
+            "orderingAddress1": "420 Madison Ave Ste 503",
+            "orderingAddress2": "",
+            "orderingCity": "New York",
+            "orderingState": "NY",
+            "orderingZip": "10017",
+            "orderingPhone": "2125853242"
+        }
+    },
+    {
+        "id": 8300008,
+        "patientId": 3421826,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-03-05T00:00:00",
+        "appointmentTime": "2:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "37755439                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN AND PELVIS WITH CONTRAST                                                                                                                                                    ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3153817",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3153817RF",
+            "orderingProviderLastName": "MCGRATH",
+            "orderingProviderFirstName": "ANN",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "APRN, CNM",
+            "orderingProviderNPI": "1164647970",
+            "orderingAddress1": "2500 Nesconset Hwy Bldg 9",
+            "orderingAddress2": "",
+            "orderingCity": "STONY BROOK",
+            "orderingState": "NY",
+            "orderingZip": "11790",
+            "orderingPhone": "(631)246-6100"
+        }
+    },
+    {
+        "id": 8300046,
+        "patientId": 4658623,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-08-19T00:00:00",
+        "appointmentTime": "11:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "34606980                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "50026",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "50026",
+            "orderingProviderLastName": "SAAD",
+            "orderingProviderFirstName": "SANDRE",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1376534974",
+            "orderingAddress1": "8212 151ST AVE",
+            "orderingAddress2": "",
+            "orderingCity": "HOWARD BEACH",
+            "orderingState": "NY",
+            "orderingZip": "11414",
+            "orderingPhone": "7188436300"
+        }
+    },
+    {
+        "id": 8300002,
+        "patientId": 307528,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-09-15T00:00:00",
+        "appointmentTime": "11:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "33668136                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "KNEE WITHOUT CONTRAST (LEFT)                                                                                                                                                        ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "104096",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "104096",
+            "orderingProviderLastName": "DELGUZZO",
+            "orderingProviderFirstName": "LUCIANO",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1457308876",
+            "orderingAddress1": "355 W 52nd St 2nd Floor",
+            "orderingAddress2": "",
+            "orderingCity": "New York",
+            "orderingState": "NY",
+            "orderingZip": "10019",
+            "orderingPhone": "(646)754-2387"
+        }
+    },
+    {
+        "id": 8300036,
+        "patientId": 5655772,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-07-04T00:00:00",
+        "appointmentTime": "3:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "31164686                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "HAND 2 VIEW (LEFT)                                                                                                                                                                  ",
+                "modality": "XR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3094761",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3094761RF",
+            "orderingProviderLastName": "SANTARELLI",
+            "orderingProviderFirstName": "ORIANA",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1093317190",
+            "orderingAddress1": "211 E 51st St",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10022",
+            "orderingPhone": "(212)398-1709"
+        }
+    },
+    {
+        "id": 8300024,
+        "patientId": 3752414,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2025-08-31T00:00:00",
+        "appointmentTime": "1:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "37096887                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "PELVIC TRANSABDOMINAL                                                                                                                                                               ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3161424",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3161424RF",
+            "orderingProviderLastName": "Shah",
+            "orderingProviderFirstName": "Mehul",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1851583819",
+            "orderingAddress1": "333 E 38th St",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10016",
+            "orderingPhone": "(646)501-7223"
+        }
+    },
+    {
+        "id": 8300001,
+        "patientId": 307528,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-06-30T00:00:00",
+        "appointmentTime": "9:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "33744854                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "KNEE 3 VIEW (RIGHT)                                                                                                                                                                 ",
+                "modality": "XR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "68133",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "68133",
+            "orderingProviderLastName": "ENZENBACHER",
+            "orderingProviderFirstName": "JANIS",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1821171703",
+            "orderingAddress1": "105 SHAD ROW SUITE 1B",
+            "orderingAddress2": "",
+            "orderingCity": "Piermont",
+            "orderingState": "NY",
+            "orderingZip": "10968",
+            "orderingPhone": "8456806600"
+        }
+    },
+    {
+        "id": 8300031,
+        "patientId": 2810895,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-09-08T00:00:00",
+        "appointmentTime": "1:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "30739653                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "PELVIC TRANSABDOMINAL                                                                                                                                                               ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "No prep is required for your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3088464",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3088464RF",
+            "orderingProviderLastName": "BEROOKHIM",
+            "orderingProviderFirstName": "BOBACK",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1639330160",
+            "orderingAddress1": "170 East 77th Street",
+            "orderingAddress2": "Suite B",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10075",
+            "orderingPhone": "(212)434-4650"
+        }
+    },
+    {
+        "id": 8300006,
+        "patientId": 3421826,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2025-09-12T00:00:00",
+        "appointmentTime": "3:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "34855124                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "BRAIN WITH AND WITHOUT CONTRAST                                                                                                                                                     ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "No prep is required for your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3080676",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3080676RF",
+            "orderingProviderLastName": "JACOB",
+            "orderingProviderFirstName": "ROSHNEY",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "M.D.",
+            "orderingProviderNPI": "1710151584",
+            "orderingAddress1": "222 East 41St Street",
+            "orderingAddress2": "23rd Floor",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10017",
+            "orderingPhone": "(212)481-1350"
+        }
+    },
+    {
+        "id": 8300044,
+        "patientId": 7758158,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-02-18T00:00:00",
+        "appointmentTime": "9:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "38689889                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN AND PELVIS WITH CONTRAST                                                                                                                                                    ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3105639",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3105639RF",
+            "orderingProviderLastName": "FRIMER",
+            "orderingProviderFirstName": "RICHARD",
+            "orderingProviderMiddleInitial": "B",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1093787418",
+            "orderingAddress1": "170 Maple Ave, Ste G1",
+            "orderingAddress2": "",
+            "orderingCity": "WHITE PLAINS",
+            "orderingState": "NY",
+            "orderingZip": "10601",
+            "orderingPhone": "(914)683-0443"
+        }
+    },
+    {
+        "id": 8300027,
+        "patientId": 7770955,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-04-19T00:00:00",
+        "appointmentTime": "1:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "34004485                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "812",
+            "name": "SimonMed Dallas North",
+            "address": {
+                "address1": "2500 Legacy Dr",
+                "address2": "",
+                "city": "Plano",
+                "state": "TX",
+                "zip": "75024"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3160229",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3160229RF",
+            "orderingProviderLastName": "Fasano",
+            "orderingProviderFirstName": "Andrew",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1760435150",
+            "orderingAddress1": "2073 Newbridge Rd",
+            "orderingAddress2": "",
+            "orderingCity": "BELLMORE",
+            "orderingState": "NY",
+            "orderingZip": "11710",
+            "orderingPhone": "(516)781-9898"
+        }
+    },
+    {
+        "id": 8300018,
+        "patientId": 3941005,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-09-15T00:00:00",
+        "appointmentTime": "8:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "39872386                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "BRAIN WITH AND WITHOUT CONTRAST                                                                                                                                                     ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3069907",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3069907RF",
+            "orderingProviderLastName": "Shapiro",
+            "orderingProviderFirstName": "George",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1205840337",
+            "orderingAddress1": "4 Westchester Park Drive Suite  210",
+            "orderingAddress2": "",
+            "orderingCity": "WEST HARRISON",
+            "orderingState": "NY",
+            "orderingZip": "10604",
+            "orderingPhone": "(914)472-1900"
+        }
+    },
+    {
+        "id": 8300043,
+        "patientId": 193026,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-02-21T00:00:00",
+        "appointmentTime": "10:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "36442089                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3119424",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3119424RF",
+            "orderingProviderLastName": "Dolinsky",
+            "orderingProviderFirstName": "Jason",
+            "orderingProviderMiddleInitial": "H",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1740200906",
+            "orderingAddress1": "555 Madison Avenue",
+            "orderingAddress2": "3rd Floor",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10022",
+            "orderingPhone": "(646)754-2000"
+        }
+    },
+    {
+        "id": 8300022,
+        "patientId": 1664689,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-09-18T00:00:00",
+        "appointmentTime": "8:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "31264748                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "62108",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "62108",
+            "orderingProviderLastName": "GRUBER",
+            "orderingProviderFirstName": "BARRY",
+            "orderingProviderMiddleInitial": "L",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1710912431",
+            "orderingAddress1": "500 W MAIN STREET",
+            "orderingAddress2": "",
+            "orderingCity": "BABYLON",
+            "orderingState": "NY",
+            "orderingZip": "11702",
+            "orderingPhone": "6313762663"
+        }
+    },
+    {
+        "id": 8300050,
+        "patientId": 1508404,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-08-05T00:00:00",
+        "appointmentTime": "8:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "37841505                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3069124",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3069124RF",
+            "orderingProviderLastName": "FINERMAN",
+            "orderingProviderFirstName": "WILMORE",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1356327035",
+            "orderingAddress1": "210 Westchester Avenue, 3rd FL.",
+            "orderingAddress2": "",
+            "orderingCity": "WEST HARRISON",
+            "orderingState": "NY",
+            "orderingZip": "10604",
+            "orderingPhone": "(914)305-2700"
+        }
+    },
+    {
+        "id": 8300047,
+        "patientId": 6938382,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2025-09-16T00:00:00",
+        "appointmentTime": "3:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "36426265                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN AND PELVIS WITH CONTRAST                                                                                                                                                    ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3102799",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3102799RF",
+            "orderingProviderLastName": "MATZA",
+            "orderingProviderFirstName": "BRENT",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1033435128",
+            "orderingAddress1": "1143 Lexington Ave",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10021",
+            "orderingPhone": "(646)350-4815"
+        }
+    },
+    {
+        "id": 8300014,
+        "patientId": 1717159,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2025-08-08T00:00:00",
+        "appointmentTime": "10:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "35007072                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "CHEST WITHOUT CONTRAST                                                                                                                                                              ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3160822",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3160822RF",
+            "orderingProviderLastName": "Smith",
+            "orderingProviderFirstName": "Brian",
+            "orderingProviderMiddleInitial": "K",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1023186061",
+            "orderingAddress1": "8324 oswego RD",
+            "orderingAddress2": "",
+            "orderingCity": "LIVERPOOL",
+            "orderingState": "NY",
+            "orderingZip": "13090",
+            "orderingPhone": "(315)652-6551"
+        }
+    },
+    {
+        "id": 8300021,
+        "patientId": 7626486,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2025-03-19T00:00:00",
+        "appointmentTime": "11:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "35692553                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN WITHOUT CONTRAST                                                                                                                                                            ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "No prep is required for your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3088512",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3088512RF",
+            "orderingProviderLastName": "DEDIOS",
+            "orderingProviderFirstName": "MARIA",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1629589734",
+            "orderingAddress1": "130 East 77th Street",
+            "orderingAddress2": "3rd Floor",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10075",
+            "orderingPhone": "(212)434-3900"
+        }
+    },
+    {
+        "id": 8300025,
+        "patientId": 3217625,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2025-05-27T00:00:00",
+        "appointmentTime": "9:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "39800873                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "KNEE WITHOUT CONTRAST (LEFT)                                                                                                                                                        ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "103869",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "103869",
+            "orderingProviderLastName": "KAPLOWITZ",
+            "orderingProviderFirstName": "DAVID",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1083670103",
+            "orderingAddress1": "710 Park Ave Ste 1C",
+            "orderingAddress2": "",
+            "orderingCity": "New York",
+            "orderingState": "NY",
+            "orderingZip": "10021",
+            "orderingPhone": "(212)472-1410"
+        }
+    },
+    {
+        "id": 8300017,
+        "patientId": 2130113,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-07-20T00:00:00",
+        "appointmentTime": "4:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "36693979                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3136147",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3136147RF",
+            "orderingProviderLastName": "KIRKE",
+            "orderingProviderFirstName": "DIANA",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "BSc MBBS MPhil FRACS",
+            "orderingProviderNPI": "1609242510",
+            "orderingAddress1": "425 W 59TH ST FL 10",
+            "orderingAddress2": "",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10019",
+            "orderingPhone": "(212)262-4444"
+        }
+    },
+    {
+        "id": 8300004,
+        "patientId": 307528,
+        "status": "ORDERED",
+        "appoinmentDate": "2024-12-24T00:00:00",
+        "appointmentTime": "2:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "31556017                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "CHEST 2 VIEW                                                                                                                                                                        ",
+                "modality": "XR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3136859",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3136859RF",
+            "orderingProviderLastName": "BLAU",
+            "orderingProviderFirstName": "WILLIAM",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1326084757",
+            "orderingAddress1": "1999 Marcus Ave",
+            "orderingAddress2": "Suite 220",
+            "orderingCity": "NEW HYDE PARK",
+            "orderingState": "NY",
+            "orderingZip": "11042",
+            "orderingPhone": "(516)467-8700"
+        }
+    },
+    {
+        "id": 8300012,
+        "patientId": 728502,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-02-17T00:00:00",
+        "appointmentTime": "8:00 AM",
+        "exams": {
+            "id": 0,
+            "accession": "36455324                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3114179",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3114179RF",
+            "orderingProviderLastName": "BARNES",
+            "orderingProviderFirstName": "KELLIE",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1740246073",
+            "orderingAddress1": "64 Bleecker St.",
+            "orderingAddress2": "Ste 151",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10012",
+            "orderingPhone": "(888)613-4854"
+        }
+    },
+    {
+        "id": 8300030,
+        "patientId": 8579356,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-08-29T00:00:00",
+        "appointmentTime": "1:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "34727085                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3158872",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3158872RF",
+            "orderingProviderLastName": "Kolesnik",
+            "orderingProviderFirstName": "Dmitriy",
+            "orderingProviderMiddleInitial": "V",
+            "orderingProviderSuffix": "MD",
+            "orderingProviderNPI": "1851326367",
+            "orderingAddress1": "63-18 austin street",
+            "orderingAddress2": "",
+            "orderingCity": "REGO PARK",
+            "orderingState": "NY",
+            "orderingZip": "11374",
+            "orderingPhone": "(718)275-7860"
+        }
+    },
+    {
+        "id": 8300009,
+        "patientId": 3421826,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-09-09T00:00:00",
+        "appointmentTime": "2:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "36730428                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "LUMBAR SPINE WITHOUT CONTRAST                                                                                                                                                       ",
+                "modality": "MR                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Do not eat 4 hours before your exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3139746",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3139746RF",
+            "orderingProviderLastName": "KORMYLO",
+            "orderingProviderFirstName": "EDWARD",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "DPM",
+            "orderingProviderNPI": "1134373467",
+            "orderingAddress1": "285 SILLS ROAD",
+            "orderingAddress2": "BLDG 17",
+            "orderingCity": "PATCHOGUE",
+            "orderingState": "NY",
+            "orderingZip": "11772",
+            "orderingPhone": "(631)654-5566"
+        }
+    },
+    {
+        "id": 8300028,
+        "patientId": 1254126,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-09-08T00:00:00",
+        "appointmentTime": "2:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "31229110                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
+                "modality": "US                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "627",
+            "name": "SimonMed Southern CA Irvine",
+            "address": {
+                "address1": "15775 Laguna Canyon Rd",
+                "address2": "",
+                "city": "Irvine",
+                "state": "CA",
+                "zip": "92618"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "72593",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "72593",
+            "orderingProviderLastName": "GREENFIELD",
+            "orderingProviderFirstName": "MARTIN",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1205831443",
+            "orderingAddress1": "2 Pro Health Plaza",
+            "orderingAddress2": "",
+            "orderingCity": "Lake Success",
+            "orderingState": "NY",
+            "orderingZip": "11042",
+            "orderingPhone": "5166086823"
+        }
+    },
+    {
+        "id": 8300042,
+        "patientId": 4207776,
+        "status": "SCHEDULED",
+        "appoinmentDate": "2025-09-21T00:00:00",
+        "appointmentTime": "8:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "33768844                    ",
+            "examInfo": {
+                "id": 0,
+                "code": null,
+                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
+                "modality": "CT                            ",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Arrive 15 minutes early for registration."
+                }
+            }
+        },
+        "facility": {
+            "id": "812",
+            "name": "SimonMed Dallas North",
+            "address": {
+                "address1": "2500 Legacy Dr",
+                "address2": "",
+                "city": "Plano",
+                "state": "TX",
+                "zip": "75024"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "3088473",
+            "orderingProviderType": "RF",
+            "orderingProviderCode": "HCP3088473RF",
+            "orderingProviderLastName": "MILLER",
+            "orderingProviderFirstName": "DAVID",
+            "orderingProviderMiddleInitial": "H",
+            "orderingProviderSuffix": "",
+            "orderingProviderNPI": "1902993074",
+            "orderingAddress1": "520 East 70th Street",
+            "orderingAddress2": "Suite 443",
+            "orderingCity": "NEW YORK",
+            "orderingState": "NY",
+            "orderingZip": "10021",
+            "orderingPhone": "(646)962-5558"
+        }
+    }
+]

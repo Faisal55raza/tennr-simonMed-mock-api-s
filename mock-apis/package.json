@@ -1,0 +1,23 @@
+{
+     "name": "mock-apis",
+     "version": "1.0.0",
+     "description": "",
+     "main": "app.js",
+     "scripts": {
+          "start": "set NODE_ENV=PRODUCTION & node app.js",
+          "dev": "npx nodemon app.js"
+     },
+     "keywords": [],
+     "author": "",
+     "type": "module",
+     "license": "ISC",
+     "dependencies": {
+          "cors": "^2.8.5",
+          "date-fns": "^4.1.0",
+          "dotenv": "^17.2.2",
+          "express": "^5.1.0"
+     },
+     "devDependencies": {
+          "nodemon": "^3.1.10"
+     }
+}
