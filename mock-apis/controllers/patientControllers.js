@@ -40,10 +40,10 @@ export const getPatients = TryCatch(async (req, res) => {
     results = results.map((p) => {
       let score = 0;
 
-      if (firstName && firstName.trim() !== "" && p.firstName.toLowerCase() === firstName.toLowerCase()) {
+      if (firstName && firstName.trim() !== "" && p.firstName.toLowerCase() == firstName.toLowerCase()) {
         score += 1;
       }
-      if (lastName && lastName.trim() !== "" && p.lastName.toLowerCase() === lastName.toLowerCase()) {
+      if (lastName && lastName.trim() !== "" && p.lastName.toLowerCase() == lastName.toLowerCase()) {
         score += 1;
       }
 
