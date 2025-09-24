@@ -3,6 +3,6 @@ import { getPatients } from '../controllers/patientControllers.js';
 import authenticate from '../middlewares/authentication.js';
 const router = express.Router();
 
-router.get('/patients', authenticate, getPatients);
+router.post('/patients', authenticate, getPatients);
 
 export default router;
