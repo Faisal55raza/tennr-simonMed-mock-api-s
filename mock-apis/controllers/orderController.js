@@ -9,7 +9,7 @@ export const createOrder = TryCatch(async (req, res) => {
   }
 
   // Generate order_id
-  const orderId = "ORD-" + uuidv4();
+  const orderId = "ORD-" + Math.floor(100000 + Math.random() * 900000);
 
   // Build response
   const response = {
@@ -38,10 +38,7 @@ export const createOrder = TryCatch(async (req, res) => {
             modality: inputs?.modality_code || ""
           }
         ],
-        icd_codes: inputs?.icd_codes?.map(([code, description]) => ({
-          icd_code: code,
-          icd_description: description
-        })) || [],
+        icd_codes: inputs?.icd_codes || [],
         chart_note: inputs?.chart_notes || ""
       },
       document: {
@@ -50,7 +47,7 @@ export const createOrder = TryCatch(async (req, res) => {
       }
     }
   };
-
+  console.log("Order Created:", response);
   res.status(201).json(response);
 });
 
