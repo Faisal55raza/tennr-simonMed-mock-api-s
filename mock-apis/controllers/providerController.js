@@ -1,4 +1,5 @@
 import { TryCatch } from "../middlewares/error.js";
+import providers from "../models/providers.json" assert { type: "json" };
 
 export const getProviders = TryCatch(async (req, res) => {
  const { id, npi, fax, firstName, lastName, zip } = req.body;
@@ -7,13 +8,13 @@ export const getProviders = TryCatch(async (req, res) => {
 
   if (id && id.trim() !== "") {
     // Priority: Search by ID
-    results = providers.filter((p) => p.id.toString() === id.trim());
+    results = providers.filter((p) => p.id.toString() == id.trim());
   } else if (npi && npi.trim() !== "") {
     // Next: Search by NPI
-    results = providers.filter((p) => p.providerNPI === npi.trim());
+    results = providers.filter((p) => p.providerNPI == npi.trim());
   } else if (fax && fax.trim() !== "") {
     // Next: Search by Fax
-    results = providers.filter((p) => p.fax === fax.trim());
+    results = providers.filter((p) => p.fax == fax.trim());
   } else {
     // Fallback: Union of First Name and Last Name
     let setA = [];
@@ -22,12 +23,12 @@ export const getProviders = TryCatch(async (req, res) => {
     if ((firstName && firstName.trim() !== "") || (lastName && lastName.trim() !== "")) {
       if (firstName && firstName.trim() !== "") {
         const fn = firstName.trim().toLowerCase();
-        setA = providers.filter((p) => p.providerFirstName.toLowerCase() === fn);
+        setA = providers.filter((p) => p.providerFirstName.toLowerCase() == fn);
       }
 
       if (lastName && lastName.trim() !== "") {
         const ln = lastName.trim().toLowerCase();
-        setB = providers.filter((p) => p.providerLastName.toLowerCase() === ln);
+        setB = providers.filter((p) => p.providerLastName.toLowerCase() == ln);
       }
 
       // Union of A and B (avoid duplicates by ID)
@@ -39,9 +40,9 @@ export const getProviders = TryCatch(async (req, res) => {
 
   // Apply filters
   if (zip && zip.trim() !== "") {
-    results = results.filter((p) => p.address.zip === zip.trim());
+    results = results.filter((p) => p.address.zip == zip.trim());
   }
-
+  console.log(results);
   res.json({ success: true, providers: results });
 
 });
