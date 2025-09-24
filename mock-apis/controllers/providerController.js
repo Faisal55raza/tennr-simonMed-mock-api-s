@@ -42,7 +42,7 @@ export const getProviders = TryCatch(async (req, res) => {
   if (zip && zip.trim() !== "") {
     results = results.filter((p) => p.address.zip == zip.trim());
   }
-  console.log(results);
+  
   res.json({ success: true, providers: results });
 
 });
