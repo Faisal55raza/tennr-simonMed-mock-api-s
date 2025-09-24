@@ -1,7 +1,8 @@
 import express from 'express';
 import { getProviders } from '../controllers/providerController.js';
+import authenticate from '../middlewares/authentication.js';
 const router = express.Router();
 
-router.get('/providers', getProviders);
+router.get('/providers', authenticate, getProviders);
 
 export default router;
