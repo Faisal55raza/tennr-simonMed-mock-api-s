@@ -26,8 +26,8 @@ app.use(cors({
 
 
 
-  app.get('/', (req, res) => {
-    res.send('Hello, World!');
+  app.get('/keep-alive', (req, res) => {
+    res.send('Alive!');
   });
 
 app.use('/api/mock', appointmentRoute);
