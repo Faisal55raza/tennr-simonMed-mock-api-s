@@ -13,7 +13,8 @@ export const getPatients = TryCatch(async (req, res) => {
     // Priority: Search by MRN
     results = patients.filter((p) => p.mrn == mrn);
     atLeastOneCriteria = true;
-  } else {
+  } 
+  else {
     let setA = [];
     let setB = [];
     if((firstName && firstName.trim() !== "") || (lastName && lastName.trim() !== "")) {
@@ -34,7 +35,26 @@ export const getPatients = TryCatch(async (req, res) => {
 
     // Union of A and B (avoid duplicates by ID)
     results = [...new Map([...setA, ...setB].map((p) => [p.id, p])).values()];
-  
+
+    //sorting
+    results = results.map((p) => {
+      let score = 0;
+
+      if (firstName && firstName.trim() !== "" && p.firstName.toLowerCase() === firstName.toLowerCase()) {
+        score += 1;
+      }
+      if (lastName && lastName.trim() !== "" && p.lastName.toLowerCase() === lastName.toLowerCase()) {
+        score += 1;
+      }
+
+      return { ...p, matchScore: score };
+      });
+
+// Sort by score
+  results.sort((a, b) => b.matchScore - a.matchScore);
+
+// Remove score afterwards
+  results = results.map(({ matchScore, ...rest }) => rest);
   
   }
 
