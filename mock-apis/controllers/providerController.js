@@ -1,5 +1,5 @@
 import { TryCatch } from "../middlewares/error.js";
-import providers from "../models/providers.json" assert { type: "json" };
+const providers = require ("../models/providers.json")
 
 export const getProviders = TryCatch(async (req, res) => {
  const { id, npi, fax, firstName, lastName, zip } = req.body;

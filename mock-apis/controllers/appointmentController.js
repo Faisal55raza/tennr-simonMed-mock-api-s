@@ -1,5 +1,5 @@
 import { TryCatch } from "../middlewares/error.js";
-import appointments from "../models/appointments.json" assert { type: "json" };
+const appointments = require("../models/appointments.json")
 import { parse } from 'date-fns';
 
 export const getAppointments = TryCatch(async(req, res) => {
