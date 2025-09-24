@@ -19,7 +19,11 @@ import providerRoute from './routes/providerRote.js'
 
  app.use(express.json());
 app.use(express.urlencoded({extended: true}));
-app.use(cors({origin:'*',credentials:true})); 
+app.use(cors({
+  origin: (origin, callback) => callback(null, origin), // reflect the request origin
+  credentials: true
+}));
+
 
 
   app.get('/', (req, res) => {
