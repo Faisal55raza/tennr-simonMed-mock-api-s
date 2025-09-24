@@ -3,6 +3,6 @@ import { getProviders } from '../controllers/providerController.js';
 import authenticate from '../middlewares/authentication.js';
 const router = express.Router();
 
-router.get('/providers', authenticate, getProviders);
+router.post('/providers', authenticate, getProviders);
 
 export default router;
