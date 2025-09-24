@@ -47,7 +47,7 @@ export const createOrder = TryCatch(async (req, res) => {
       }
     }
   };
-  console.log("Order Created:", response);
+  
   res.status(201).json(response);
 });
 
