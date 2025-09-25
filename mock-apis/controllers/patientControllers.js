@@ -69,10 +69,6 @@ export const getPatients = TryCatch(async (req, res) => {
     );
    
   }
-  if (zip && zip.trim() !== "") {
-    atLeastOneCriteria = true;
-    results = results.filter((p) => p.patientAddress.zip == zip);
-  }
   // If no criteria provided, return empty array
   if(!atLeastOneCriteria) {
     results = [];
