@@ -15,8 +15,7 @@ export const createOrder = TryCatch(async (req, res) => {
   
 
   // Build response
-  const response = {
-    outputs: {
+  const order = {
       order_id: orderId,
       patient: {
         patient_id: inputs?.patient_id || "",
@@ -41,8 +40,7 @@ export const createOrder = TryCatch(async (req, res) => {
         document_type: inputs?.document_name?.split('.').pop() || 'pdf',
         document: inputs?.base64_data || ""
       }
-    }
   };
 
-  res.status(201).json(response);
+  res.status(201).json({success : true,order);
 });
