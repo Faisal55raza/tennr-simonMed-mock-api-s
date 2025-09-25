@@ -3048,7 +3048,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "4287",
-                "description": "ABDOMEN LIMITED",
+                "description": "BD BONE DENSITY",
                 "modality": "US",
                 "instructions": {
                     "id": 0,
@@ -3097,7 +3097,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "6191",
-                "description": "SINUS WITHOUT CONTRAST",
+                "description": "BD BONE DENSITY",
                 "modality": "CT",
                 "instructions": {
                     "id": 0,
@@ -3146,7 +3146,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "1821",
-                "description": "BRAIN WITH AND WITHOUT CONTRAST",
+                "description": "BD BONE DENSITY",
                 "modality": "MR",
                 "instructions": {
                     "id": 0,
@@ -3195,7 +3195,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "4716",
-                "description": "ABDOMEN AND PELVIS WITH CONTRAST",
+                "description": "BD BONE DENSITY",
                 "modality": "CT",
                 "instructions": {
                     "id": 0,
