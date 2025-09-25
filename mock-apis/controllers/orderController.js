@@ -26,7 +26,7 @@ export const createOrder = TryCatch(async (req, res) => {
         patient_contact: inputs?.patient_contact || "",
         work_phone: inputs?.work_phone || ""
       },
-      order: {
+      orderInfo: {
         facility_code: inputs?.facility_code || "",
         institution: inputs?.institution || "",
         physician_info: inputs?.physician_info || "",
