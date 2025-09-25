@@ -7,12 +7,12 @@
         "appointmentTime": "3:30 PM",
         "exams": {
             "id": 0,
-            "accession": "34186414                    ",
+            "accession": "34186414",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "KNEE 3 VIEW (RIGHT)                                                                                                                                                                 ",
-                "modality": "XR                            ",
+                "code": "912",
+                "description": "KNEE 3 VIEW (RIGHT)",
+                "modality": "XR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -56,12 +56,12 @@
         "appointmentTime": "3:00 PM",
         "exams": {
             "id": 0,
-            "accession": "37048838                    ",
+            "accession": "37048838",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "BRAIN WITH AND WITHOUT CONTRAST                                                                                                                                                     ",
-                "modality": "MR                            ",
+                "code": "1821",
+                "description": "BRAIN WITH AND WITHOUT CONTRAST",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -105,12 +105,12 @@
         "appointmentTime": "4:00 PM",
         "exams": {
             "id": 0,
-            "accession": "31871534                    ",
+            "accession": "31871534",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "HAND 2 VIEW (LEFT)                                                                                                                                                                  ",
-                "modality": "XR                            ",
+                "code": "348",
+                "description": "HAND 2 VIEW (LEFT)",
+                "modality": "XR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -154,12 +154,12 @@
         "appointmentTime": "9:30 AM",
         "exams": {
             "id": 0,
-            "accession": "39113685                    ",
+            "accession": "39113685",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "SINUS WITHOUT CONTRAST                                                                                                                                                              ",
-                "modality": "CT                            ",
+                "code": "7171",
+                "description": "SINUS WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -203,12 +203,12 @@
         "appointmentTime": "1:30 PM",
         "exams": {
             "id": 0,
-            "accession": "33731818                    ",
+            "accession": "33731818",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN WITHOUT CONTRAST                                                                                                                                                            ",
-                "modality": "MR                            ",
+                "code": "354",
+                "description": "ABDOMEN WITHOUT CONTRAST",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -252,12 +252,12 @@
         "appointmentTime": "8:30 AM",
         "exams": {
             "id": 0,
-            "accession": "31876828                    ",
+            "accession": "31876828",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
-                "modality": "US                            ",
+                "code": "1527",
+                "description": "ABDOMEN LIMITED",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -301,12 +301,12 @@
         "appointmentTime": "10:00 AM",
         "exams": {
             "id": 0,
-            "accession": "34672073                    ",
+            "accession": "34672073",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "BRAIN WITH AND WITHOUT CONTRAST                                                                                                                                                     ",
-                "modality": "MR                            ",
+                "code": "3272",
+                "description": "BRAIN WITH AND WITHOUT CONTRAST",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -350,12 +350,12 @@
         "appointmentTime": "11:30 AM",
         "exams": {
             "id": 0,
-            "accession": "30415846                    ",
+            "accession": "30415846",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "SINUS WITHOUT CONTRAST                                                                                                                                                              ",
-                "modality": "CT                            ",
+                "code": "6191",
+                "description": "SINUS WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -399,12 +399,12 @@
         "appointmentTime": "9:00 AM",
         "exams": {
             "id": 0,
-            "accession": "37418210                    ",
+            "accession": "37418210",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "CAROTID DUPLEX                                                                                                                                                                      ",
-                "modality": "US                            ",
+                "code": "4210",
+                "description": "CAROTID DUPLEX",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -448,12 +448,12 @@
         "appointmentTime": "4:30 PM",
         "exams": {
             "id": 0,
-            "accession": "38468772                    ",
+            "accession": "38468772",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "CERVICAL SPINE 2-3 VIEW                                                                                                                                                             ",
-                "modality": "XR                            ",
+                "code": "8137",
+                "description": "CERVICAL SPINE 2-3 VIEW",
+                "modality": "XR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -497,12 +497,12 @@
         "appointmentTime": "1:00 PM",
         "exams": {
             "id": 0,
-            "accession": "32396987                    ",
+            "accession": "32396987",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "CAROTID DUPLEX                                                                                                                                                                      ",
-                "modality": "US                            ",
+                "code": "337",
+                "description": "CAROTID DUPLEX",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -546,12 +546,12 @@
         "appointmentTime": "11:00 AM",
         "exams": {
             "id": 0,
-            "accession": "30744682                    ",
+            "accession": "30744682",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
-                "modality": "CT                            ",
+                "code": "8918",
+                "description": "HEAD WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -595,12 +595,12 @@
         "appointmentTime": "9:30 AM",
         "exams": {
             "id": 0,
-            "accession": "32320821                    ",
+            "accession": "32320821",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "KNEE 3 VIEW (RIGHT)                                                                                                                                                                 ",
-                "modality": "XR                            ",
+                "code": "489",
+                "description": "KNEE 3 VIEW (RIGHT)",
+                "modality": "XR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -644,12 +644,12 @@
         "appointmentTime": "10:30 AM",
         "exams": {
             "id": 0,
-            "accession": "31161193                    ",
+            "accession": "31161193",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN WITHOUT CONTRAST                                                                                                                                                            ",
-                "modality": "MR                            ",
+                "code": "212",
+                "description": "ABDOMEN WITHOUT CONTRAST",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -693,12 +693,12 @@
         "appointmentTime": "8:00 AM",
         "exams": {
             "id": 0,
-            "accession": "39548001                    ",
+            "accession": "39548001",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
-                "modality": "US                            ",
+                "code": "6815",
+                "description": "RENAL ULTRASOUND",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -742,12 +742,12 @@
         "appointmentTime": "3:30 PM",
         "exams": {
             "id": 0,
-            "accession": "31626229                    ",
+            "accession": "31626229",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "CHEST WITHOUT CONTRAST                                                                                                                                                              ",
-                "modality": "CT                            ",
+                "code": "3164",
+                "description": "CHEST WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -791,12 +791,12 @@
         "appointmentTime": "2:30 PM",
         "exams": {
             "id": 0,
-            "accession": "36350753                    ",
+            "accession": "36350753",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
-                "modality": "US                            ",
+                "code": "4287",
+                "description": "ABDOMEN LIMITED",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -840,12 +840,12 @@
         "appointmentTime": "10:30 AM",
         "exams": {
             "id": 0,
-            "accession": "38075854                    ",
+            "accession": "38075854",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "CAROTID DUPLEX                                                                                                                                                                      ",
-                "modality": "US                            ",
+                "code": "8231",
+                "description": "CAROTID DUPLEX",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -889,12 +889,12 @@
         "appointmentTime": "9:00 AM",
         "exams": {
             "id": 0,
-            "accession": "36210606                    ",
+            "accession": "36210606",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "KNEE 3 VIEW (RIGHT)                                                                                                                                                                 ",
-                "modality": "XR                            ",
+                "code": "3422",
+                "description": "KNEE 3 VIEW (RIGHT)",
+                "modality": "XR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -938,12 +938,12 @@
         "appointmentTime": "9:00 AM",
         "exams": {
             "id": 0,
-            "accession": "39557567                    ",
+            "accession": "39557567",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
-                "modality": "US                            ",
+                "code": "701",
+                "description": "ABDOMEN LIMITED",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -987,12 +987,12 @@
         "appointmentTime": "3:30 PM",
         "exams": {
             "id": 0,
-            "accession": "32500715                    ",
+            "accession": "32500715",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "KNEE WITHOUT CONTRAST (LEFT)                                                                                                                                                        ",
-                "modality": "MR                            ",
+                "code": "7075",
+                "description": "KNEE WITHOUT CONTRAST (LEFT)",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1036,12 +1036,12 @@
         "appointmentTime": "1:00 PM",
         "exams": {
             "id": 0,
-            "accession": "39029842                    ",
+            "accession": "39029842",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "CAROTID DUPLEX                                                                                                                                                                      ",
-                "modality": "US                            ",
+                "code": "4704",
+                "description": "CAROTID DUPLEX",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1085,12 +1085,12 @@
         "appointmentTime": "2:00 PM",
         "exams": {
             "id": 0,
-            "accession": "30641849                    ",
+            "accession": "30641849",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
-                "modality": "CT                            ",
+                "code": "9793",
+                "description": "HEAD WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1134,12 +1134,12 @@
         "appointmentTime": "1:00 PM",
         "exams": {
             "id": 0,
-            "accession": "30109031                    ",
+            "accession": "30109031",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "PELVIC TRANSABDOMINAL                                                                                                                                                               ",
-                "modality": "US                            ",
+                "code": "7284",
+                "description": "PELVIC TRANSABDOMINAL",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1183,12 +1183,12 @@
         "appointmentTime": "3:00 PM",
         "exams": {
             "id": 0,
-            "accession": "38508103                    ",
+            "accession": "38508103",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "LUMBAR SPINE WITHOUT CONTRAST                                                                                                                                                       ",
-                "modality": "MR                            ",
+                "code": "8237",
+                "description": "LUMBAR SPINE WITHOUT CONTRAST",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1232,12 +1232,12 @@
         "appointmentTime": "2:00 PM",
         "exams": {
             "id": 0,
-            "accession": "37755439                    ",
+            "accession": "37755439",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN AND PELVIS WITH CONTRAST                                                                                                                                                    ",
-                "modality": "CT                            ",
+                "code": "2645",
+                "description": "ABDOMEN AND PELVIS WITH CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1281,12 +1281,12 @@
         "appointmentTime": "11:30 AM",
         "exams": {
             "id": 0,
-            "accession": "34606980                    ",
+            "accession": "34606980",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
-                "modality": "US                            ",
+                "code": "7366",
+                "description": "RENAL ULTRASOUND",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1330,12 +1330,12 @@
         "appointmentTime": "11:00 AM",
         "exams": {
             "id": 0,
-            "accession": "33668136                    ",
+            "accession": "33668136",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "KNEE WITHOUT CONTRAST (LEFT)                                                                                                                                                        ",
-                "modality": "MR                            ",
+                "code": "5798",
+                "description": "KNEE WITHOUT CONTRAST (LEFT)",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1379,12 +1379,12 @@
         "appointmentTime": "3:00 PM",
         "exams": {
             "id": 0,
-            "accession": "31164686                    ",
+            "accession": "31164686",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "HAND 2 VIEW (LEFT)                                                                                                                                                                  ",
-                "modality": "XR                            ",
+                "code": "1783",
+                "description": "HAND 2 VIEW (LEFT)",
+                "modality": "XR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1428,12 +1428,12 @@
         "appointmentTime": "1:30 PM",
         "exams": {
             "id": 0,
-            "accession": "37096887                    ",
+            "accession": "37096887",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "PELVIC TRANSABDOMINAL                                                                                                                                                               ",
-                "modality": "US                            ",
+                "code": "6837",
+                "description": "PELVIC TRANSABDOMINAL",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1477,12 +1477,12 @@
         "appointmentTime": "9:00 AM",
         "exams": {
             "id": 0,
-            "accession": "33744854                    ",
+            "accession": "33744854",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "KNEE 3 VIEW (RIGHT)                                                                                                                                                                 ",
-                "modality": "XR                            ",
+                "code": "1515",
+                "description": "KNEE 3 VIEW (RIGHT)",
+                "modality": "XR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1526,12 +1526,12 @@
         "appointmentTime": "1:00 PM",
         "exams": {
             "id": 0,
-            "accession": "30739653                    ",
+            "accession": "30739653",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "PELVIC TRANSABDOMINAL                                                                                                                                                               ",
-                "modality": "US                            ",
+                "code": "5651",
+                "description": "PELVIC TRANSABDOMINAL",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1575,12 +1575,12 @@
         "appointmentTime": "3:00 PM",
         "exams": {
             "id": 0,
-            "accession": "34855124                    ",
+            "accession": "34855124",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "BRAIN WITH AND WITHOUT CONTRAST                                                                                                                                                     ",
-                "modality": "MR                            ",
+                "code": "352",
+                "description": "BRAIN WITH AND WITHOUT CONTRAST",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1624,12 +1624,12 @@
         "appointmentTime": "9:30 AM",
         "exams": {
             "id": 0,
-            "accession": "38689889                    ",
+            "accession": "38689889",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN AND PELVIS WITH CONTRAST                                                                                                                                                    ",
-                "modality": "CT                            ",
+                "code": "9352",
+                "description": "ABDOMEN AND PELVIS WITH CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1673,12 +1673,12 @@
         "appointmentTime": "1:30 PM",
         "exams": {
             "id": 0,
-            "accession": "34004485                    ",
+            "accession": "34004485",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
-                "modality": "CT                            ",
+                "code": "2344",
+                "description": "HEAD WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1722,12 +1722,12 @@
         "appointmentTime": "8:30 AM",
         "exams": {
             "id": 0,
-            "accession": "39872386                    ",
+            "accession": "39872386",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "BRAIN WITH AND WITHOUT CONTRAST                                                                                                                                                     ",
-                "modality": "MR                            ",
+                "code": "2968",
+                "description": "BRAIN WITH AND WITHOUT CONTRAST",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1771,12 +1771,12 @@
         "appointmentTime": "10:00 AM",
         "exams": {
             "id": 0,
-            "accession": "36442089                    ",
+            "accession": "36442089",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
-                "modality": "US                            ",
+                "code": "7594",
+                "description": "RENAL ULTRASOUND",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1820,12 +1820,12 @@
         "appointmentTime": "8:00 AM",
         "exams": {
             "id": 0,
-            "accession": "31264748                    ",
+            "accession": "31264748",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
-                "modality": "US                            ",
+                "code": "1633",
+                "description": "RENAL ULTRASOUND",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1869,12 +1869,12 @@
         "appointmentTime": "8:00 AM",
         "exams": {
             "id": 0,
-            "accession": "37841505                    ",
+            "accession": "37841505",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "RENAL ULTRASOUND                                                                                                                                                                    ",
-                "modality": "US                            ",
+                "code": "7512",
+                "description": "RENAL ULTRASOUND",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1918,12 +1918,12 @@
         "appointmentTime": "3:30 PM",
         "exams": {
             "id": 0,
-            "accession": "36426265                    ",
+            "accession": "36426265",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN AND PELVIS WITH CONTRAST                                                                                                                                                    ",
-                "modality": "CT                            ",
+                "code": "4716",
+                "description": "ABDOMEN AND PELVIS WITH CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -1967,12 +1967,12 @@
         "appointmentTime": "10:30 AM",
         "exams": {
             "id": 0,
-            "accession": "35007072                    ",
+            "accession": "35007072",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "CHEST WITHOUT CONTRAST                                                                                                                                                              ",
-                "modality": "CT                            ",
+                "code": "4023",
+                "description": "CHEST WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -2016,12 +2016,12 @@
         "appointmentTime": "11:00 AM",
         "exams": {
             "id": 0,
-            "accession": "35692553                    ",
+            "accession": "35692553",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN WITHOUT CONTRAST                                                                                                                                                            ",
-                "modality": "MR                            ",
+                "code": "9682",
+                "description": "ABDOMEN WITHOUT CONTRAST",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -2065,12 +2065,12 @@
         "appointmentTime": "9:00 AM",
         "exams": {
             "id": 0,
-            "accession": "39800873                    ",
+            "accession": "39800873",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "KNEE WITHOUT CONTRAST (LEFT)                                                                                                                                                        ",
-                "modality": "MR                            ",
+                "code": "7909",
+                "description": "KNEE WITHOUT CONTRAST (LEFT)",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -2114,12 +2114,12 @@
         "appointmentTime": "4:00 PM",
         "exams": {
             "id": 0,
-            "accession": "36693979                    ",
+            "accession": "36693979",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
-                "modality": "CT                            ",
+                "code": "3682",
+                "description": "HEAD WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -2163,12 +2163,12 @@
         "appointmentTime": "2:30 PM",
         "exams": {
             "id": 0,
-            "accession": "31556017                    ",
+            "accession": "31556017",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "CHEST 2 VIEW                                                                                                                                                                        ",
-                "modality": "XR                            ",
+                "code": "9817",
+                "description": "CHEST 2 VIEW",
+                "modality": "XR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -2212,12 +2212,12 @@
         "appointmentTime": "8:00 AM",
         "exams": {
             "id": 0,
-            "accession": "36455324                    ",
+            "accession": "36455324",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
-                "modality": "US                            ",
+                "code": "414",
+                "description": "ABDOMEN LIMITED",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -2261,12 +2261,12 @@
         "appointmentTime": "1:00 PM",
         "exams": {
             "id": 0,
-            "accession": "34727085                    ",
+            "accession": "34727085",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
-                "modality": "CT                            ",
+                "code": "7015",
+                "description": "HEAD WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -2310,12 +2310,12 @@
         "appointmentTime": "2:00 PM",
         "exams": {
             "id": 0,
-            "accession": "36730428                    ",
+            "accession": "36730428",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "LUMBAR SPINE WITHOUT CONTRAST                                                                                                                                                       ",
-                "modality": "MR                            ",
+                "code": "1672",
+                "description": "LUMBAR SPINE WITHOUT CONTRAST",
+                "modality": "MR",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -2359,12 +2359,12 @@
         "appointmentTime": "2:30 PM",
         "exams": {
             "id": 0,
-            "accession": "31229110                    ",
+            "accession": "31229110",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "ABDOMEN LIMITED                                                                                                                                                                     ",
-                "modality": "US                            ",
+                "code": "5462",
+                "description": "ABDOMEN LIMITED",
+                "modality": "US",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
@@ -2408,12 +2408,12 @@
         "appointmentTime": "8:30 AM",
         "exams": {
             "id": 0,
-            "accession": "33768844                    ",
+            "accession": "33768844",
             "examInfo": {
                 "id": 0,
-                "code": null,
-                "description": "HEAD WITHOUT CONTRAST                                                                                                                                                               ",
-                "modality": "CT                            ",
+                "code": "4571",
+                "description": "HEAD WITHOUT CONTRAST",
+                "modality": "CT",
                 "instructions": {
                     "id": 0,
                     "type": "ExamPrep",
