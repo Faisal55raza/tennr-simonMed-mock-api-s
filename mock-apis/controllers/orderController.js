@@ -12,15 +12,7 @@ export const createOrder = TryCatch(async (req, res) => {
   const orderId = "ORD-" + Math.floor(100000 + Math.random() * 900000);
 
   // Handle exam_description as array
-  const examDescriptions = Array.isArray(inputs.exam_description) ? inputs.exam_description : [inputs.exam_description];
-
-  const studies = examDescriptions.map((desc, index) => ({
-    accession_number: inputs.accession_number || `ACC-${Math.floor(100000 + Math.random() * 900000)}`,
-    exam_status: inputs.exam_status || "",
-    exam_description: desc || "",
-    stat_level: inputs.stat_level || "",
-    modality: inputs.modality_code || ""
-  }));
+  
 
   // Build response
   const response = {
@@ -40,7 +32,7 @@ export const createOrder = TryCatch(async (req, res) => {
         institution: inputs?.institution || "",
         physician_info: inputs?.physician_info || "",
         ordering_provider: inputs?.ordering_provider || "",
-        studies,
+        studies: inputs?.studies || "",
         icd_codes: inputs?.icd_codes || [],
         chart_note: inputs?.chart_notes || ""
       },
