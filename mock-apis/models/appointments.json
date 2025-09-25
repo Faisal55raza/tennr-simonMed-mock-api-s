@@ -2608,7 +2608,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "4287",
-                "description": "ABDOMEN LIMITED",
+                "description": "MR Screening Body",
                 "modality": "US",
                 "instructions": {
                     "id": 0,
@@ -2657,7 +2657,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "4287",
-                "description": "ABDOMEN LIMITED",
+                "description": "MR Screening Body",
                 "modality": "US",
                 "instructions": {
                     "id": 0,
@@ -2706,7 +2706,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "5651",
-                "description": "PELVIC TRANSABDOMINAL",
+                "description": "MR Screening Body",
                 "modality": "US",
                 "instructions": {
                     "id": 0,
@@ -2755,7 +2755,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "6815",
-                "description": "RENAL ULTRASOUND",
+                "description": "CT SHOULDER WITHOUT CONTRAST (RIGHT)",
                 "modality": "US",
                 "instructions": {
                     "id": 0,
@@ -2804,7 +2804,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "4716",
-                "description": "ABDOMEN AND PELVIS WITH CONTRAST",
+                "description": "CT SHOULDER WITHOUT CONTRAST (RIGHT)",
                 "modality": "CT",
                 "instructions": {
                     "id": 0,
@@ -2853,7 +2853,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "7075",
-                "description": "KNEE WITHOUT CONTRAST (LEFT)",
+                "description": "CT SHOULDER WITHOUT CONTRAST (RIGHT)",
                 "modality": "MR",
                 "instructions": {
                     "id": 0,
@@ -3784,7 +3784,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "5651",
-                "description": "PELVIC TRANSABDOMINAL",
+                "description": "MR ABDOMEN WITH AND WITHOUT CONTRAST W/MRCP",
                 "modality": "US",
                 "instructions": {
                     "id": 0,
@@ -3833,7 +3833,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "1821",
-                "description": "BRAIN WITH AND WITHOUT CONTRAST",
+                "description": "MR ABDOMEN WITH AND WITHOUT CONTRAST W/MRCP",
                 "modality": "MR",
                 "instructions": {
                     "id": 0,
@@ -3882,7 +3882,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "912",
-                "description": "KNEE 3 VIEW (RIGHT)",
+                "description": "MR ABDOMEN WITH AND WITHOUT CONTRAST W/MRCP",
                 "modality": "XR",
                 "instructions": {
                     "id": 0,
@@ -3931,7 +3931,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "6191",
-                "description": "SINUS WITHOUT CONTRAST",
+                "description": "CT HIP ARTHROGRAM (RIGHT)",
                 "modality": "CT",
                 "instructions": {
                     "id": 0,
@@ -3980,7 +3980,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "4716",
-                "description": "ABDOMEN AND PELVIS WITH CONTRAST",
+                "description": "CT HIP ARTHROGRAM (RIGHT)",
                 "modality": "CT",
                 "instructions": {
                     "id": 0,
@@ -4029,7 +4029,7 @@
             "examInfo": {
                 "id": 0,
                 "code": "354",
-                "description": "ABDOMEN WITHOUT CONTRAST",
+                "description": "CT HIP ARTHROGRAM (RIGHT)",
                 "modality": "MR",
                 "instructions": {
                     "id": 0,
