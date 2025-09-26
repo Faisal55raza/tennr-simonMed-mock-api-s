@@ -16,7 +16,7 @@ export const getPatients = TryCatch(async (req, res) => {
   let atLeastOneCriteria = false;
   let results = patients;
 
-  if (mrn && mrn.trim() !== "") {
+  if (mrn && mrn.trim() !== "" && mrn.trim() != "null") {
     results = patients.filter((p) => p.mrn == mrn);
     atLeastOneCriteria = true;
   } else {

@@ -9,10 +9,10 @@ export const getProviders = TryCatch(async (req, res) => {
   if (id && id.trim() !== "") {
     // Priority: Search by ID
     results = providers.filter((p) => p.id.toString() == id.trim());
-  } else if (npi && npi.trim() !== "") {
+  } else if (npi && npi.trim() !== "" && npi.trim() != "null") {
     // Next: Search by NPI
     results = providers.filter((p) => p.providerNPI == npi.trim());
-  } else if (fax && fax.trim() !== "") {
+  } else if (fax && fax.trim() !== "" && fax.trim() != "null") {
     // Next: Search by Fax
     results = providers.filter((p) => p.fax == fax.trim());
   } else {
@@ -71,9 +71,7 @@ export const getProviders = TryCatch(async (req, res) => {
   }
 
   // Apply filters
-  if (zip && zip.trim() !== "") {
-    results = results.filter((p) => p.address.zip == zip.trim());
-  }
+
 
   res.json({ success: true, providers: results });
 });
