@@ -1,24 +1,28 @@
 import { TryCatch } from "../middlewares/error.js";
 import patients from "../models/patient.json" with { type: "json" };
 
+function formatDob(dob) {
+  if (!dob) return "";
+  const date = new Date(dob);
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  const year = date.getFullYear();
+  return `${month}/${day}/${year}`;
+}
 
 export const getPatients = TryCatch(async (req, res) => {
   const { mrn, firstName, lastName, dob, zip } = req.body;
 
   let atLeastOneCriteria = false;
-
   let results = patients;
 
   if (mrn && mrn.trim() !== "") {
-    // Priority: Search by MRN
     results = patients.filter((p) => p.mrn == mrn);
     atLeastOneCriteria = true;
-  } 
-  else {
+  } else {
     let setA = [];
     let setB = [];
-    if((firstName && firstName.trim() !== "") || (lastName && lastName.trim() !== "")) {
-      
+    if ((firstName && firstName.trim() !== "") || (lastName && lastName.trim() !== "")) {
       atLeastOneCriteria = true;
     }
     if (firstName && firstName.trim() !== "") {
@@ -33,45 +37,37 @@ export const getPatients = TryCatch(async (req, res) => {
       );
     }
 
-    // Union of A and B (avoid duplicates by ID)
     results = [...new Map([...setA, ...setB].map((p) => [p.id, p])).values()];
 
-    //sorting
     results = results.map((p) => {
       let score = 0;
-
-      if (firstName && firstName.trim() !== "" && p.firstName.toLowerCase() == firstName.toLowerCase()) {
+      if (firstName && p.firstName.toLowerCase() == firstName.toLowerCase()) {
         score += 1;
       }
-      if (lastName && lastName.trim() !== "" && p.lastName.toLowerCase() == lastName.toLowerCase()) {
+      if (lastName && p.lastName.toLowerCase() == lastName.toLowerCase()) {
         score += 1;
       }
-
       return { ...p, matchScore: score };
-      });
+    });
 
-// Sort by score
-  results.sort((a, b) => b.matchScore - a.matchScore);
-
-// Remove score afterwards
-  results = results.map(({ matchScore, ...rest }) => rest);
-  
+    results.sort((a, b) => b.matchScore - a.matchScore);
+    results = results.map(({ matchScore, ...rest }) => rest);
   }
 
-  // Apply filters
   if (dob && dob.trim() !== "") {
     atLeastOneCriteria = true;
-    results = results.filter(
-      (p) => {
-        const tempDob = p.dob;
-  
-        return tempDob.split("T")[0] == dob}
-    );
-   
+    results = results.filter((p) => p.dob.split("T")[0] == dob);
   }
-  // If no criteria provided, return empty array
-  if(!atLeastOneCriteria) {
+
+  if (!atLeastOneCriteria) {
     results = [];
   }
-  res.json({success: true, patients: results });
+
+  // Format DOBs in MM/DD/YYYY before sending
+  results = results.map((p) => ({
+    ...p,
+    dob: formatDob(p.dob),
+  }));
+
+  res.json({ success: true, patients: results });
 });

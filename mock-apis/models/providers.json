@@ -109678,6 +109678,31 @@
             "state": "IN",
             "zip": "97676"
         }
+    },
+    {
+    "id": 410001,
+    "providerContactCode": "240876",
+    "providerCode": "410001",
+    "providerType": "MD",
+    "providerLastName": "NOWINS",
+    "providerFirstName": "ROSEMARY",
+    "providerMiddleInitial": "",
+    "providerSuffix": "FNP",
+    "providerNPI": "1831239524",
+    "Phone": "702-272-1551",
+    "mobilePhone": "",
+    "officePhone": "",
+    "pagerPhone": "",
+    "fax": "702-272-1554",
+    "officeFax": "",
+    "address": {
+        "address1": "3340 TOPAZ ST STE 100",
+        "address2": "",
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "zip": "89121"
     }
+}
+
 
 ]

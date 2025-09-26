@@ -4065,5 +4065,149 @@
             "orderingZip": "97676",
             "orderingPhone": "6443363623164"
         }
+    },
+     {
+        "id": 920002,
+        "patientId": 210001,
+        "status": "COMPLETED",
+        "appoinmentDate": "2025-09-17T00:00:00",
+        "appointmentTime": "11:00 PM",
+        "exams": {
+            "id": 0,
+            "accession": "34690955",
+            "examInfo": {
+                "code": "8001",
+                "description": "US PELVIC (NON-OB) TRANSABDOMINAL WITH DUPLEX IMAGING",
+                "modality": "US",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before the exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "701",
+            "name": "SimonMed Phoenix Downtown",
+            "address": {
+                "address1": "123 W Madison St",
+                "address2": "Suite 200",
+                "city": "Phoenix",
+                "state": "AZ",
+                "zip": "85003"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "410001",
+            "orderingProviderType": "MD",
+            "orderingProviderCode": "410001",
+            "orderingProviderLastName": "NOWINS",
+            "orderingProviderFirstName": "ROSEMARY",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "FNP",
+            "orderingProviderNPI": "1831239524",
+            "orderingAddress1": "3340 TOPAZ ST STE 100",
+            "orderingAddress2": "",
+            "orderingCity": "LAS VEGAS",
+            "orderingState": "NV",
+            "orderingZip": "89121",
+            "orderingPhone": "702-272-1551"
+        }
+    },
+    {
+        "id": 920003,
+        "patientId": 210001,
+        "status": "ORDERED",
+        "appoinmentDate": "2025-09-08T00:00:00",
+        "appointmentTime": "14:30 AM",
+        "exams": {
+            "id": 0,
+            "accession": "38478163",
+            "examInfo": {
+                "code": "8001",
+                "description": "US PELVIC (NON-OB) TRANSABDOMINAL WITH DUPLEX IMAGING",
+                "modality": "US",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before the exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "934",
+            "name": "SimonMed New York Midtown",
+            "address": {
+                "address1": "45 W 45th St",
+                "address2": "Floor 5",
+                "city": "New York",
+                "state": "NY",
+                "zip": "10036"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "410001",
+            "orderingProviderType": "MD",
+            "orderingProviderCode": "410001",
+            "orderingProviderLastName": "NOWINS",
+            "orderingProviderFirstName": "ROSEMARY",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "FNP",
+            "orderingProviderNPI": "1831239524",
+            "orderingAddress1": "3340 TOPAZ ST STE 100",
+            "orderingAddress2": "",
+            "orderingCity": "LAS VEGAS",
+            "orderingState": "NV",
+            "orderingZip": "89121",
+            "orderingPhone": "702-272-1551"
+        }
+    },
+    {
+        "id": 920004,
+        "patientId": 210001,
+        "status": "CANCELLED",
+        "appoinmentDate": "2025-09-17T00:00:00",
+        "appointmentTime": "13:30 PM",
+        "exams": {
+            "id": 0,
+            "accession": "37447508",
+            "examInfo": {
+                "code": "8001",
+                "description": "US PELVIC (NON-OB) TRANSABDOMINAL WITH DUPLEX IMAGING",
+                "modality": "US",
+                "instructions": {
+                    "id": 0,
+                    "type": "ExamPrep",
+                    "text": "Hydrate well; drink 16 oz water 30 minutes before the exam."
+                }
+            }
+        },
+        "facility": {
+            "id": "812",
+            "name": "SimonMed Dallas North",
+            "address": {
+                "address1": "2500 Legacy Dr",
+                "address2": "",
+                "city": "Plano",
+                "state": "TX",
+                "zip": "75024"
+            }
+        },
+        "orderingProvider": {
+            "orderingProviderId": "410001",
+            "orderingProviderType": "MD",
+            "orderingProviderCode": "410001",
+            "orderingProviderLastName": "NOWINS",
+            "orderingProviderFirstName": "ROSEMARY",
+            "orderingProviderMiddleInitial": "",
+            "orderingProviderSuffix": "FNP",
+            "orderingProviderNPI": "1831239524",
+            "orderingAddress1": "3340 TOPAZ ST STE 100",
+            "orderingAddress2": "",
+            "orderingCity": "LAS VEGAS",
+            "orderingState": "NV",
+            "orderingZip": "89121",
+            "orderingPhone": "702-272-1551"
+        }
     }
 ]
