@@ -26,7 +26,7 @@ app.use(cors({
 
 
 
-  app.get('/', (req, res) => {
+  app.get('/alive', (req, res) => {
     res.send('Alive!');
   });
 
