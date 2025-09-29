@@ -26,8 +26,9 @@ app.use(cors({
 
 
 
-  app.get('/alive', (req, res) => {
-    res.send('Alive!');
+  app.get('/alv', (req, res) => {
+    const num = Math.floor(100000 + Math.random() * 900000);
+    res.send(num);
   });
 
 app.use('/api/mock', appointmentRoute);
