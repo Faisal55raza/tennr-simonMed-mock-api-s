@@ -109702,7 +109702,32 @@
         "state": "NV",
         "zip": "89121"
     }
+},
+{
+  "id": 410002,
+  "providerContactCode": "583421",
+  "providerCode": "410002",
+  "providerType": "MD",
+  "providerLastName": "SALDIVAR",
+  "providerFirstName": "LUTEA",
+  "providerMiddleInitial": "",
+  "providerSuffix": "NMD",
+  "providerNPI": "1992995724",
+  "Phone": "602-322-1315",
+  "mobilePhone": "",
+  "officePhone": "602-322-1315",
+  "pagerPhone": "",
+  "fax": "602-322-1316",
+  "officeFax": "480-214-0055",
+  "address": {
+    "address1": "1311 E THOMAS RD",
+    "address2": "",
+    "city": "PHOENIX",
+    "state": "AZ",
+    "zip": "85014"
+  }
 }
+
 
 
 ]
