@@ -104,44 +104,38 @@ export const getPatients = TryCatch(async (req, res) => {
   let results = [];
 
   // 1. Search by MRN
-  if (isValidValue(mrn)) {
-    results = patients.filter(
-      (p) => String(p.mrn) === String(mrn).trim()
-    );
+  const hasMrn = isValidValue(mrn);
+  if (hasMrn) {
+    results = patients.filter((p) => String(p.mrn) === String(mrn).trim());
   }
 
   // 2. If no results, search by First Name / Last Name
-  if (
-    results.length === 0 &&
-    (isValidValue(firstName) || isValidValue(lastName))
-  ) {
+  const hasName = isValidValue(firstName) || isValidValue(lastName);
+  if (results.length === 0 && hasName) {
     results = searchByName(firstName, lastName);
   }
 
-  // 3. If DOB is provided, filter current results.
-  // If no previous result exists, search all patients by DOB.
-  if (isValidValue(dob)) {
-  results =
-    results.length > 0
-      ? filterByDob(results, dob)
-      : results;
-}
+  // 3. If DOB is provided, narrow results — but keep name results if none match
+  const hasDob = isValidValue(dob);
+  if (hasDob && results.length > 0) {
+    const dobFiltered = filterByDob(results, dob);
+    if (dobFiltered.length > 0) {
+      results = dobFiltered;
+    }
+  }
 
-if (isValidValue(zip)) {
-  results =
-    results.length > 0
-      ? filterByZip(results, zip)
-      : results;
-}
+  // 4. If ZIP is provided, narrow results — but keep results if none match
+  const hasZip = isValidValue(zip);
+  if (hasZip && results.length > 0) {
+    const zipFiltered = filterByZip(results, zip);
+    if (zipFiltered.length > 0) {
+      results = zipFiltered;
+    }
+  }
 
   // 5. If no valid criteria provided, return empty results
-  if (
-    !isValidValue(mrn) &&
-    !isValidValue(firstName) &&
-    !isValidValue(lastName) &&
-    !isValidValue(dob) &&
-    !isValidValue(zip)
-  ) {
+  const hasAnyCriteria = hasMrn || hasName || hasDob || hasZip;
+  if (!hasAnyCriteria) {
     results = [];
   }
 
