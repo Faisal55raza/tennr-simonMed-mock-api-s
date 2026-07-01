@@ -3,11 +3,44 @@ import patients from "../models/patient.json" with { type: "json" };
 
 function formatDob(dob) {
   if (!dob) return "";
-  const date = new Date(dob);
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  const year = date.getFullYear();
+
+  const ymd = normalizeDobToYMD(dob);
+  if (!ymd) return "";
+
+  const [year, month, day] = ymd.split("-");
   return `${month}/${day}/${year}`;
+}
+
+function isValidValue(value) {
+  const str = String(value ?? "").trim().toLowerCase();
+  return str !== "" && str !== "null" && str !== "undefined";
+}
+
+function normalizeDobToYMD(value) {
+  if (!isValidValue(value)) return "";
+
+  const str = String(value).trim();
+
+  // Handles YYYY-MM-DD and ISO dates like 2026-06-25T00:00:00Z
+  if (/^\d{4}-\d{2}-\d{2}/.test(str)) {
+    return str.split("T")[0];
+  }
+
+  // Handles MM/DD/YYYY or M/D/YYYY
+  const mdySlash = str.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (mdySlash) {
+    const [, month, day, year] = mdySlash;
+    return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+  }
+
+  // Handles MM-DD-YYYY or M-D-YYYY
+  const mdyDash = str.match(/^(\d{1,2})-(\d{1,2})-(\d{4})$/);
+  if (mdyDash) {
+    const [, month, day, year] = mdyDash;
+    return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+  }
+
+  return "";
 }
 
 export const getPatients = TryCatch(async (req, res) => {
@@ -16,24 +49,30 @@ export const getPatients = TryCatch(async (req, res) => {
   let atLeastOneCriteria = false;
   let results = patients;
 
-  if (mrn && mrn.trim() !== "" && mrn.trim() != "null") {
-    results = patients.filter((p) => p.mrn == mrn);
+  if (isValidValue(mrn)) {
+    results = patients.filter((p) => String(p.mrn) === String(mrn).trim());
     atLeastOneCriteria = true;
   } else {
     let setA = [];
     let setB = [];
-    if ((firstName && firstName.trim() !== "") || (lastName && lastName.trim() !== "")) {
+
+    if (isValidValue(firstName) || isValidValue(lastName)) {
       atLeastOneCriteria = true;
     }
-    if (firstName && firstName.trim() !== "") {
+
+    if (isValidValue(firstName)) {
       setA = patients.filter(
-        (p) => p.firstName.toLowerCase() == firstName.toLowerCase()
+        (p) =>
+          String(p.firstName ?? "").toLowerCase() ===
+          String(firstName).trim().toLowerCase()
       );
     }
 
-    if (lastName && lastName.trim() !== "") {
+    if (isValidValue(lastName)) {
       setB = patients.filter(
-        (p) => p.lastName.toLowerCase() == lastName.toLowerCase()
+        (p) =>
+          String(p.lastName ?? "").toLowerCase() ===
+          String(lastName).trim().toLowerCase()
       );
     }
 
@@ -41,12 +80,23 @@ export const getPatients = TryCatch(async (req, res) => {
 
     results = results.map((p) => {
       let score = 0;
-      if (firstName && p.firstName.toLowerCase() == firstName.toLowerCase()) {
+
+      if (
+        isValidValue(firstName) &&
+        String(p.firstName ?? "").toLowerCase() ===
+          String(firstName).trim().toLowerCase()
+      ) {
         score += 1;
       }
-      if (lastName && p.lastName.toLowerCase() == lastName.toLowerCase()) {
+
+      if (
+        isValidValue(lastName) &&
+        String(p.lastName ?? "").toLowerCase() ===
+          String(lastName).trim().toLowerCase()
+      ) {
         score += 1;
       }
+
       return { ...p, matchScore: score };
     });
 
@@ -54,16 +104,29 @@ export const getPatients = TryCatch(async (req, res) => {
     results = results.map(({ matchScore, ...rest }) => rest);
   }
 
-  if (dob && dob.trim() !== "") {
+  if (isValidValue(dob)) {
     atLeastOneCriteria = true;
-    results = results.filter((p) => p.dob.split("T")[0] == dob);
+
+    const inputDobYMD = normalizeDobToYMD(dob);
+
+    results = results.filter((p) => {
+      const patientDobYMD = normalizeDobToYMD(p.dob);
+      return inputDobYMD && patientDobYMD && patientDobYMD === inputDobYMD;
+    });
+  }
+
+  if (isValidValue(zip)) {
+    atLeastOneCriteria = true;
+
+    results = results.filter(
+      (p) => String(p.zip ?? "").trim() === String(zip).trim()
+    );
   }
 
   if (!atLeastOneCriteria) {
     results = [];
   }
 
-  // Format DOBs in MM/DD/YYYY before sending
   results = results.map((p) => ({
     ...p,
     dob: formatDob(p.dob),
